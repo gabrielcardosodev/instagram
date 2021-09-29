@@ -128,3 +128,32 @@ body {
 .app-download:nth-child(2) {
   background-image: url("./img/googleplay-button.png");
 }
+
+/* media queries */
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background: #fff;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .continue {
+    width: 100%;
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
+}
